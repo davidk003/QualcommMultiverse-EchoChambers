@@ -1,0 +1,6 @@
+# QEfficient — Qualcomm Efficient Transformers Library (Cloud AI 100)
+# Distributed via git; pin to a release tag.
+QEfficient @ git+https://github.com/quic/efficient-transformers@release/v1.22.0
+transformers>=4.40
+fastapi>=0.110
+uvicorn>=0.30

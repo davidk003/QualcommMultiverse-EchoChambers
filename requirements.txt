@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10                # convolution / signal helpers
+onnx>=1.14                 # ONNX graph authoring (train_classifier.py export)
+onnxruntime>=1.18          # CPU inference + ONNX export validation
+psutil>=5.9                # latency/CPU sampling in benchmarks
+sounddevice>=0.4.6         # live microphone capture (host + PC secondary path)
+websockets>=12.0           # cross-device fusion hub (Arduino / mobile streams)
+pytest>=7.0                # tests/
+pytest-timeout>=2.1
